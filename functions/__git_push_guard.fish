@@ -39,7 +39,7 @@ function __git_push_guard
     echo "  $dim Identity:$reset  $cyan$user_name$reset <$cyan$user_email$reset>"
     echo "  $dim   Branch:$reset  $green$branch$reset"
     echo "  $dim     Repo:$reset  $magenta$repo_name$reset"
-    echo "  $dim   Remote:$reset  $dim$remote_url$reset"
+    echo "  $dim   Remote:$reset  $remote_url"
 
     if test "$is_force" = true
         echo ""
